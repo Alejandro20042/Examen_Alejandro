@@ -37,9 +37,10 @@ namespace Examen_Alejandro
             {
                 cabeza = nuevoNodo;
             }
-            Nodo actual = cabeza;
+            
             while (actual.Siguiente != null)
             {
+                Nodo actual = cabeza;
                 actual = actual.Siguiente;
             }
             actual.Siguiente = nuevoNodo;
